@@ -1,9 +1,9 @@
 package domain
 
 import (
-	"github.com/stretchr/testify/assert"
-	"net/http"
 	"testing"
+	"net/http"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetUserNoUserFound(t *testing.T) {
